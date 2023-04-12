@@ -1,0 +1,15 @@
+$text-color-1: #6996DB;
+$text-color-2: black;
+
+.certificate {
+  min-width: 320px;
+  width: 100vw;
+  max-width: 1200px;
+
+  padding: 10px;
+  .certificate_img {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+ 
+}

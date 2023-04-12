@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Patrick+Hand&display=swap');
+
+$background: #d7e5f9;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+li,
+span,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+
+  @media screen and (max-width: 900px) {
+    padding: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#__next {
+  max-width: 1200px;
+  width: 100vw;
+  min-width: 380px;
+  
+  display: flex;
+  justify-content: center;
+
+  justify-content: space-between;
+
+  flex-direction: column;
+
+  border: 1px solid #8cb8f5;
+
+  @media screen and (max-width: 900px) {
+    border: 0px solid;
+  }
+}
+
+.page-footer {
+  background-color: $background;
+}
+
+.certificate-img_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+}

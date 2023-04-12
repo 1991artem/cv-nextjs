@@ -1,0 +1,82 @@
+$text-color-1: #6996DB;
+$text-color-2: black;
+
+.experience {
+  min-width: 320px;
+  .experience_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+
+    margin: 20px 0;
+  }
+  .exp-item_container {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    .company-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;
+      }
+      p {
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0 5px;
+        color: $text-color-2;
+          &:first-child {
+            font-size: 20px;
+            color: $text-color-2;
+            font-weight: 400;
+          }
+      }
+    }
+    .company-location {
+      p {
+        font-size: 24px;
+        margin: 0 5px;
+        color: $text-color-1;
+        font-weight: 700;
+        span {
+          color: $text-color-2;
+          font-weight: 400;
+        }
+      }
+    }
+    .company-position {
+      p {
+        font-size: 24px;
+        margin: 0 5px;
+        color: $text-color-1;
+        font-weight: 700;
+        span {
+          color: $text-color-2;
+          font-weight: 400;
+        }
+      }
+    }
+    .company-technologies {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 24px;
+        margin: 0 5px;
+        &:first-child {
+          color: $text-color-1;
+          font-weight: 700;
+        }
+      }
+    }
+    .company-description {
+      p {
+        font-size: 24px;
+        margin: 0 5px;
+        &:first-child {
+          color: $text-color-1;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
