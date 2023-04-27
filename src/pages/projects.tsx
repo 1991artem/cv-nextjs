@@ -22,19 +22,19 @@ const workArray: ProjectType[] = [
     'Technologies': ['Node.js (Express)', 'REST API', 'GitHub', 'Typescript', 'Postman', 'PostgreSQL', 'TypeORM'],
   },
   {
-    'Name': 'File Uploder, PDF-converter (NestJS)',
-    'GitHub': 'https://github.com/1991artem/nest-file-test',
+    'Name': 'PDF-converter (NestJS)',
+    'GitHub': 'https://github.com/1991artem/pdf-convertor-nest',
     'Deploy': '',
-    'Description': `Uploading an image to the database, Uploading a PDF template from the database`,
+    'Description': `Uploading a PDF template, changet tags, convert docx, html`,
     'Technologies': ['Node.js (NestJS)', 'REST API', 'GitHub', 'Typescript', 'Postman', 'PostgreSQL', 'TypeORM'],
   },
-  {
-    'Name': 'TODOS (React Native)',
-    'GitHub': 'https://github.com/1991artem/slmax-testovoe-zadanie',
-    'Deploy': '',
-    'Description': `Creation of the TODOS mobile application`,
-    'Technologies': ['React Native', 'Expo', 'Typescript', 'GitHub'],
-  },
+  // {
+  //   'Name': 'TODOS (React Native)',
+  //   'GitHub': 'https://github.com/1991artem/slmax-testovoe-zadanie',
+  //   'Deploy': '',
+  //   'Description': `Creation of the TODOS mobile application`,
+  //   'Technologies': ['React Native', 'Expo', 'Typescript', 'GitHub'],
+  // },
 ]
 
 
